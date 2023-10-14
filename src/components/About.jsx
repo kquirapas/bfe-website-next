@@ -19,10 +19,38 @@ const About = ({ title }, ref) => {
             </div>
           </div>
           <div className='grid justify-center lg:px-0 px-32 gap-8'>
+            <p className='uppercase text-center text-shadow-white text-2xl lg:text-5xl font-bold'>MEET THE TEAM</p>
+            <p className='text-center lg:mb-2 mb-8 mx-12 lg:mx-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.</p>
+            <div className='flex flex-wrap text-lg lg:xl 2xl:text-2xl w-full justify-center gap-12 px-4 2xl:px-16 lg:gap-4'>
+              <div placeholder="blur" className='relative xl:h-[250px] h-52 w-80 xl:w-[370px] flex items-center justify-end'>
+                <Image className='absolute bottom-0 left-0 z-10' src={"/About/Kristian_profile.png"} width={250} height={250} alt='about' />
+                <span className='uppercase font-bold pr-2 text-black z-10 text-center'>
+                  <p className="lg:text-2xl text-xl lg:leading-5 leading-4">Kristian</p>
+                  <p className="lg:text-2xl text-xl lg:leading-5 leading-4">Quiparas</p>
+                </span>
+                <Image placeholder="blur" blurDataURL={blur} className='absolute bottom-0 left-0 ' src={"/About/Team_bg.svg"} width={380} height={180} alt='about' />
+              </div>
+              <div className='relative xl:h-[250px] h-52 w-80 xl:w-[370px] flex items-center justify-end'>
+                <Image placeholder="blur" blurDataURL={blur} className='absolute bottom-0 left-0 z-10' src={"/About/Alvin_profile.png"} width={264} height={250} alt='about' />
+                <span className='uppercase font-bold pr-8 text-black z-10 text-center'>
+                  <p className="lg:text-2xl text-xl lg:leading-5 leading-4">Alvin</p>
+                  <p className="lg:text-2xl text-xl lg:leading-5 leading-4">Reyes</p>
+                </span>
+                <Image placeholder="blur" blurDataURL={blur} className='absolute bottom-0 left-0 ' src={"/About/Team_bg.svg"} width={380} height={180} alt='about' />
+              </div>
+              <div className='relative xl:h-[250px] h-52 w-80 xl:w-[370px] flex z-10 items-center justify-end'>
+                <Image placeholder="blur" blurDataURL={blur} className='absolute bottom-0 left-0 z-10' src={"/About/Warvin_profile.png"} width={291} height={250} alt='about' />
+                <span className='uppercase font-bold pr-2 text-black z-10 text-center'>
+                  <p className="lg:text-2xl text-xl lg:leading-5 leading-4">Warvin</p>
+                  <p className="lg:text-2xl text-xl lg:leading-5 leading-4">Gonzaga</p>
+                </span>
+                <Image placeholder="blur" blurDataURL={blur} className='absolute bottom-0 left-0 ' src={"/About/Team_bg.svg"} width={380} height={180} alt='about' />
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
 }
 
