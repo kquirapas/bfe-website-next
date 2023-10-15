@@ -48,9 +48,20 @@ const About = ({ title }, ref) => {
               </div>
             </div>
           </div>
+          <div className='relative flex items-center justify-center'>
+            <Image className='absolute -top-56 w-32 lg:w-max right-14' src={"/About/Dots.svg"} width={140} height={100} alt='about' />
+            <Image className='absolute -top-16 lg:w-max w-44 left-0 z-10' src={"/About/Polygon_left.svg"} width={650} height={500} alt='about' />
+            <div className='grid grid-cols-1 lg:grid-cols-2 mx-36 md:mx-44 lg:mx-20 gap-8 items-center rounded-[1.5rem] p-6 backdrop-brightness-50 bg-[#1d1d27]'>
+              <div className='grid gap-6'>
+                <p className='uppercase text-2xl lg:text-start text-center lg:text-5xl font-bold'>Mission</p>
+                <p>Users must rely on the risk management system of a centralized entity that could rescind their access to their account at any time, share their files with snooping government agencies or even go bankrupt, leaving customers scrambling to find another solution before their files disappear.</p>
+              </div>
+              <Image className='z-50' src={"/About/Placeholder_image.svg"} width={1300} height={1300} alt='about' />
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 

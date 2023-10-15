@@ -3,6 +3,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import Header from '@/components/Header';
 import Home from '@/components/Home';
 import About from '@/components/About';
+import BeAGuest from '@/components/BeAGuest';
 import Image from "next/image";
 import Arrowup from '../../public/Arrow_up.svg'
 
@@ -57,6 +58,7 @@ export default function App() {
         <Image height={500} width={400} className='absolute lg:w-max w-52 top-80 lg:top-0 -right-6' src={"Home/Polygon_bg_right.svg"} alt='bg right design' />
         <Home ref={refs.homeRef} setViewPort={setViewPort} title="Home" />
         <About ref={refs.aboutRef} title="About" />
+        <BeAGuest ref={refs.beAGuestRef} title="Be a Guest" />
       </div>
     </main>
   )
