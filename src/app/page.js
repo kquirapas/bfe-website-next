@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Home from '@/components/Home';
 import About from '@/components/About';
 import BeAGuest from '@/components/BeAGuest';
+import Footer from '@/components/Footer';
 import Image from "next/image";
 import Arrowup from '../../public/Arrow_up.svg'
 
@@ -59,6 +60,7 @@ export default function App() {
         <Home ref={refs.homeRef} setViewPort={setViewPort} title="Home" />
         <About ref={refs.aboutRef} title="About" />
         <BeAGuest ref={refs.beAGuestRef} title="Be a Guest" />
+        <Footer setViewPort={setViewPort} />
       </div>
     </main>
   )
