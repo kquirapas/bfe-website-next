@@ -32,8 +32,12 @@ const Home = ({ }, ref) => {
           </div>
           <div className='relative flex px-10 justify-center'>
             <Image className='absolute -right-6 -bottom-36 pb-10' src={"Home/Sound_Waves_icon.svg"} width={348} height={348} alt='blog' />
-            <Image className='absolute right-14 lg:w-max w-20 lg:right-32 top-3' src={"Home/Headset_Mic.svg"} width={100} height={100} alt='blog' />
-            <Image className='z-10 w-72 lg:w-max' src={"Home/Empty_image.svg"} width={506} height={660} alt='blog' />
+            <Image className='z-10 absolute right-14 lg:w-max w-20 lg:right-32 top-3' src={"Home/Headset_Mic.svg"} width={100} height={100} alt='blog' />
+            <Image className='z-20 w-72 lg:w-max' src={"/Home/Group_5.png"} width={506} height={660} alt='blog' />
+            <Image className='z-20 absolute left-0 right-0 mx-auto bottom-9 lg:bottom-16 w-56 lg:w-[66.67%] xl:w-[400px] xl:bottom-18 2xl:w-auto 2xl:bottom-16' src={"/Home/Frame.png"} width={550} height={550} alt='blog' />
+              <div className='z-20 absolute bottom-9 mx-auto w-56 h-72 lg:w-[66.67%] h-[80%] lg:bottom-16 xl:w-[400px] h-3/4 xl:h-9/12 xl:bottom-18 2xl: h-4/s 2xl:bottom-16 rounded-full overflow-hidden'>
+                <Image src={"/Home/hero_image.png"} alt='blog' layout='fill' objectFit='cover' />
+              </div>
             <Image className='absolute lg:-left-14 left-6 z-20 bottom-14 lg:bottom-24 w-64 lg:w-max' src={"Home/Horizontal_Music_Home.svg"} width={323} height={85} alt='blog' />
           </div>
         </div>
