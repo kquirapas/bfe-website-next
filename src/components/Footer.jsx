@@ -21,20 +21,21 @@ const Footer = ({ setViewPort }) => {
                         <div className='flex justify-center'>
                             <p className='w-64 text-center text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </div>
-                        <div className='flex justify-center flex-wrap gap-6'>
-                            <SocialMediaIcons width={28} height={28} navigateTo={"/"} srcImage={"/Footer/Facebook_logo.svg"} alt={"fb"} />
-                            <SocialMediaIcons width={28} height={28} navigateTo={"/"} srcImage={"/Footer/Instagram_logo.svg"} alt={"Instagram"} />
-                            <SocialMediaIcons width={28} height={28} navigateTo={"/"} srcImage={"/Footer/Tiktok_icon.svg"} alt={"tiktok"} />
-                            <SocialMediaIcons width={28} height={28} navigateTo={"/"} srcImage={"/Footer/Youtube_logo.svg"} alt={"Yt"} />
-                            <SocialMediaIcons width={28} height={28} navigateTo={"/"} srcImage={"/Footer/Linkedin_logo.svg"} alt={"linkedin"} />
+                        <div className='flex justify-center items-center flex-wrap gap-7'>
+                            <SocialMediaIcons width={28} height={28} navigateTo={"https://www.facebook.com/BlockchainforExecutives"} srcImage={"/Footer/Facebook_logo.svg"} alt={"fb"} />
+                            <SocialMediaIcons width={28} height={28} navigateTo={"https://twitter.com/BlockForExec"} srcImage={"/Footer/TwitterX_logo.svg"} alt={"twitter"} />
+                            <SocialMediaIcons width={28} height={28} navigateTo={"https://www.instagram.com/blockchainforexecutives"} srcImage={"/Footer/Instagram_logo.svg"} alt={"Instagram"} />
+                            <SocialMediaIcons width={25} height={25} navigateTo={"https://www.tiktok.com/@blockchainforexecutives"} srcImage={"/Footer/Tiktok_icon.svg"} alt={"tiktok"} />
+                            <SocialMediaIcons width={28} height={28} navigateTo={"https://www.youtube.com/channel/UC1PgxSpIp3oUoLvppwbra3g"} srcImage={"/Footer/Youtube_logo.svg"} alt={"Yt"} />
+                            <SocialMediaIcons width={28} height={28} navigateTo={"https://www.linkedin.com/company/blockchain-for-executives"} srcImage={"/Footer/Linkedin_logo.svg"} alt={"linkedin"} />
                         </div>
                     </div>
                     <div className='grid gap-2 justify-center'>
                         <p>Listen to episodes on your fav platform:</p>
                         <div className='flex gap-6'>
                             <SocialMediaIcons navigateTo={"#"} width={100} height={20} srcImage={"/Footer/Google_Podcast_logo.svg"} alt={"Google"} />
-                            <SocialMediaIcons navigateTo={"#"} width={100} height={20} srcImage={"/Footer/Spotify_Text_logo.svg"} alt={"Spotify"} />
-                            <SocialMediaIcons navigateTo={"#"} width={100} height={20} srcImage={"/Footer/Youtube_Text_logo.svg"} alt={"Youtube"} />
+                            <SocialMediaIcons navigateTo={"https://open.spotify.com/show/1CRqwvCPCBMiEPStFDUujl?si=3c8a140f70d14bd5"} width={100} height={20} srcImage={"/Footer/Spotify_Text_logo.svg"} alt={"Spotify"} />
+                            <SocialMediaIcons navigateTo={"https://www.youtube.com/channel/UC1PgxSpIp3oUoLvppwbra3g"} width={100} height={20} srcImage={"/Footer/Youtube_Text_logo.svg"} alt={"Youtube"} />
                         </div>
                         <div className='grid gap-4'>
                             <div className='flex gap-6'>

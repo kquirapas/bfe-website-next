@@ -60,13 +60,13 @@ const Header = ({ setViewPort }) => {
                     <button className={`py-4 px-6 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full 
                     ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
                         onClick={() => handleScrollToSection("aboutRef")}>About Us</button>
-                    <button className={`py-4 px-6 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full 
-                    ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
-                        onClick={() => handleScrollToSection("beAGuestRef")}>Be a Guest</button>
                     <Link href={'/#'}
-                        className={`py-4 px-8 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full bg-gray-500 
+                        className={`py-4 px-6 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full 
                     ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
-                        onClick={() => handleScrollToSection("homeRef")}>Listen Now</Link>
+                        onClick={() => handleScrollToSection("homeRef")}>Be a Guest</Link>
+                    <button className={`py-4 px-8 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full bg-gray-500 
+                    ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
+                        onClick={() => handleScrollToSection("beAGuestRef")}>Listen Now</button>
                 </div>
             </div>
         </div>

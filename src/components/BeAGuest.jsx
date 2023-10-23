@@ -17,8 +17,8 @@ const BeAGuest = ({ title }, ref) => {
           <BeAGuestCards navigateTo={"#"} text="Apple Podcasts" imageSource="/BeAGuest/apple-podcast.svg" />
           <BeAGuestCards navigateTo={"#"} text="Google Podcasts" imageSource="/BeAGuest/google-podcast.svg" />
           <BeAGuestCards navigateTo={"#"} text="Ivoox" imageSource="/BeAGuest/ivoox.svg" />
-          <BeAGuestCards navigateTo={"#"} text="Spotify" imageSource="/BeAGuest/spotify.svg" />
-          <BeAGuestCards navigateTo={"#"} text="Youtube" imageSource="/BeAGuest/youtube.svg" />
+          <BeAGuestCards navigateTo={"https://open.spotify.com/show/1CRqwvCPCBMiEPStFDUujl?si=3c8a140f70d14bd5"} text="Spotify" imageSource="/BeAGuest/spotify.svg" />
+          <BeAGuestCards navigateTo={"https://www.youtube.com/channel/UC1PgxSpIp3oUoLvppwbra3g"} text="Youtube" imageSource="/BeAGuest/youtube.svg" />
         </div>
       </div>
 
