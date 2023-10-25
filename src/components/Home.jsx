@@ -37,7 +37,7 @@ const Home = ({ }, ref) => {
               <Image className='z-20 w-72 lg:w-max' src={"/Home/Group_5.png"} width={506} height={660} alt='blog' />
               <div className="absolute flex items-center justify-center">
                 <Image className='z-20 w-56 lg:w-max rounded-full' src={"/Home/Frame.png"} width={400} height={400} alt='blog' />
-                <Image className='z-20 w-56 lg:w-max rounded-full absolute' src={"/Home/alvin_hero_section.png"} layout='fill' objectFit='cover' alt='blog' />
+                <Image className='z-20 w-56 lg:w-max rounded-full absolute' src={"/Home/alvin_hero_section.PNG"} layout='fill' objectFit='cover' alt='blog' />
               </div>
             </div>
             <Image className='absolute lg:-left-14 left-6 z-30 bottom-14 lg:bottom-24 w-64 lg:w-max' src={"Home/Horizontal_Music_Home.svg"} width={323} height={85} alt='blog' />
