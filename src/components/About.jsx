@@ -54,9 +54,12 @@ const About = ({ title }, ref) => {
             <div className='grid grid-cols-1 lg:grid-cols-2 mx-36 md:mx-44 lg:mx-20 gap-8 items-center rounded-[1.5rem] p-6 backdrop-brightness-50 bg-[#1d1d27]'>
               <div className='grid gap-6'>
                 <p className='uppercase text-2xl lg:text-start text-center lg:text-5xl font-bold'>Mission</p>
-                <p>Users must rely on the risk management system of a centralized entity that could rescind their access to their account at any time, share their files with snooping government agencies or even go bankrupt, leaving customers scrambling to find another solution before their files disappear.</p>
+                <p>“To educate entrepreneurs on how they can leverage blockchain technology for their business”</p>
               </div>
-              <Image className='z-50' src={"/About/Placeholder_image.svg"} width={1300} height={1300} alt='about' />
+              <div className='relative w-full h-full'>
+                <Image className='absolute top-0 left-0 right-0 bottom-0 z-50 w-full h-full rounded-20px' src={"/About/mission.png"} alt='blog' layout='fill' objectFit='cover' />
+                <Image className='z-10' src={"/About/Placeholder_image.svg"} width={1300} height={1300} alt='about' />
+              </div>
             </div>
           </div>
         </div>

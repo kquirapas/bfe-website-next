@@ -12,13 +12,18 @@ const BeAGuest = ({ title }, ref) => {
         <p className='uppercase text-center font-bold text-2xl lg:text-5xl'>Start Listening leading to our podcast link or buzzsprout</p>
         <p className='text-center mx-2 lg:mx-52'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
         <div className='flex flex-wrap justify-center lg:mx-32 gap-4'>
-          <BeAGuestCards navigateTo={"#"} text="Web" imageSource="/BeAGuest/web.svg" />
-          <BeAGuestCards navigateTo={"#"} text="RSS Feed" imageSource="/BeAGuest/rss-feed.svg" />
-          <BeAGuestCards navigateTo={"#"} text="Apple Podcasts" imageSource="/BeAGuest/apple-podcast.svg" />
-          <BeAGuestCards navigateTo={"#"} text="Google Podcasts" imageSource="/BeAGuest/google-podcast.svg" />
-          <BeAGuestCards navigateTo={"#"} text="Ivoox" imageSource="/BeAGuest/ivoox.svg" />
-          <BeAGuestCards navigateTo={"https://open.spotify.com/show/1CRqwvCPCBMiEPStFDUujl?si=3c8a140f70d14bd5"} text="Spotify" imageSource="/BeAGuest/spotify.svg" />
-          <BeAGuestCards navigateTo={"https://www.youtube.com/channel/UC1PgxSpIp3oUoLvppwbra3g"} text="Youtube" imageSource="/BeAGuest/youtube.svg" />
+          <BeAGuestCards navigateTo={"#"} text="Spotify" imageSource="/BeAGuest/social_logo_website/spotify.svg" />
+          <BeAGuestCards navigateTo={"#"} text="Youtube" imageSource="/BeAGuest/social_logo_website/youtube.svg" />
+          <BeAGuestCards navigateTo={"#"} text="Amazon Music" imageSource="/BeAGuest/social_logo_website/amazon_music.svg" />
+          <BeAGuestCards navigateTo={"#"} text="Podchaser" imageSource="/BeAGuest/social_logo_website/podchaser.svg" />
+          <BeAGuestCards navigateTo={"#"} text="Deezer" imageSource="/BeAGuest/social_logo_website/deezer.svg" />
+          <BeAGuestCards navigateTo={"#"} text="Player FM" imageSource="/BeAGuest/social_logo_website/player_fm.svg" />
+          <BeAGuestCards navigateTo={"#"} text="Podcast Index" imageSource="/BeAGuest/social_logo_website/podcast_index.svg" />
+          <BeAGuestCards navigateTo={"#"} text="Podcast Addict" imageSource="/BeAGuest/social_logo_website/podcast_addict.svg" />
+          <BeAGuestCards navigateTo={"#"} text="Pocket Casts" imageSource="/BeAGuest/social_logo_website/pocket_casts.svg" />
+          <BeAGuestCards navigateTo={"#"} text="Listen Notes" imageSource="/BeAGuest/social_logo_website/listen_notes.svg" />
+          <BeAGuestCards navigateTo={"#"} text="RSS Feed" imageSource="/BeAGuest/social_logo_website/rss_feed.svg" />
+          
         </div>
       </div>
 

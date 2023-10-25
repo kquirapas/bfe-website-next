@@ -19,9 +19,17 @@
 }
 
 .text-shadow-black {
-  text-shadow: 4px 4px rgba(0, 0, 0);
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .text-shadow-white {
   text-shadow: -2px 2px 4px rgba(82, 82, 89, 0.5);
+}
+
+.rounded-20px {
+  border-radius: 10px;
+}
+
+.padding-top-50px {
+  padding-top: 50px;
 }
