@@ -26,7 +26,7 @@ const About = ({ title }, ref) => {
                 <Image className='absolute bottom-0 left-0 z-10' src={"/About/Kristian_profile.png"} width={250} height={250} alt='about' />
                 <span className='uppercase font-bold pr-2 text-black z-10 text-center'>
                   <p className="lg:text-2xl text-xl lg:leading-5 leading-4">Kristian</p>
-                  <p className="lg:text-2xl text-xl lg:leading-5 leading-4">Quiparas</p>
+                  <p className="lg:text-2xl text-xl lg:leading-5 leading-4">Quirapas</p>
                 </span>
                 <Image placeholder="blur" blurDataURL={blur} className='absolute bottom-0 left-0 ' src={"/About/Team_bg.svg"} width={380} height={180} alt='about' />
               </div>
