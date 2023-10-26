@@ -15,7 +15,7 @@ const About = ({ title }, ref) => {
             <Image className='mx-auto md:w-full w-64' src={"/About/Logo.png"} width={1000} height={1000} alt='about' />
             <div className='grid justify-start lg:mx-14 mx-0 gap-10'>
               <p className='uppercase lg:text-start text-center text-2xl lg:text-4xl font-bold'>About the BFE</p>
-              <p>Blockchain for Executives is a podcast on tech and business made for entrepreneurs. This podcast tackles the possible usecase and how business-minded people can leverage blockchain to their business.</p>
+              <p>Blockchain for Executives is a podcast on tech and business made for entrepreneurs. This podcast tackles the possible usecase and how business-minded people can leverage blockchain for their business.</p>
             </div>
           </div>
           <div className='grid justify-center lg:px-0 px-32 gap-8'>
