@@ -6,11 +6,11 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Blockchain for Executives',
-  description: 'Your favorite blockchain podcast is now available.',
+  description: 'Podcast on tech and business made for Entrepreneurs.',
   icons: [{ rel: 'icon', url: Favicon.src }],
   openGraph: {
     title: 'Blockchain for Executives',
-    description: 'Your favorite blockchain podcast is now available.',
+    description: 'Podcast on tech and business made for Entrepreneurs.',
     url: 'https://bfe-website-next.vercel.app/',
     images: [
       { url: 'https://bfe-website-next.vercel.app/metadata_img.png', width: 1200, height: 630 },
@@ -27,10 +27,10 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Blockchain for Executives',
-    description: 'Your favorite blockchain podcast is now available.',
+    description: 'Podcast on tech and business made for Entrepreneurs.',
     siteId: 'BlockForExec',
     creator: '@BlockForExec',
-    creatorId: 'hBlockForExec',
+    creatorId: 'BlockForExec',
     images: {
       url: 'https://bfe-website-next.vercel.app/metadata_img.png',
       alt: 'Blockchain for Executives logo',
