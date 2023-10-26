@@ -52,22 +52,22 @@ const Home = ({ }, ref) => {
             <p className='text-[#2e840d]'>mind</p>
           </div>
           <p className='text-center px-4'>Learn different use case of blockchain in different industry in every episode</p>
-          <div className='grid justify-center z-10 lg:p-10 px-8 py-4 gap-2 lg:gap-8'>
-            <div className='lg:flex grid gap-2 lg:gap-12'>
+          <div className='grid justify-center z-10 lg:p-10 px-8 py-4 gap-5 lg:gap-8'>
+            <div className='lg:flex grid gap-5 lg:gap-12'>
               <StoriesCards navigateTo={"https://www.buzzsprout.com/2252861/13698379"}
                 srcImage={"/Home/Podcast/episode_1.svg"}
                 width={530}
                 height={140}
                 alt={"Stories cards"} />
-              <StoriesCards navigateTo={"https://www.buzzsprout.com/2252861/13797534"}
-                srcImage={"/Home/Podcast/episode_3.svg"}
+              <StoriesCards navigateTo={"https://www.buzzsprout.com/2252861/13761818"}
+                srcImage={"/Home/Podcast/episode_2.svg"}
                 width={530}
                 height={140}
                 alt={"Stories cards"} />
             </div>
-            <div className='lg:flex grid gap-2 lg:gap-12'>
-              <StoriesCards navigateTo={"https://www.buzzsprout.com/2252861/13761818"}
-                srcImage={"/Home/Podcast/episode_2.svg"}
+            <div className='lg:flex grid gap-5 lg:gap-12'>
+              <StoriesCards navigateTo={"https://www.buzzsprout.com/2252861/13797534"}
+                srcImage={"/Home/Podcast/episode_3.svg"}
                 width={530}
                 height={140}
                 alt={"Stories cards"} />
