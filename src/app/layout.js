@@ -11,10 +11,11 @@ export const metadata = {
   openGraph: {
     title: 'Blockchain for Executives',
     description: 'Your favorite blockchain podcast is now available.',
+    url: 'https://bfe-website-next.vercel.app/',
     images: [
-      { url: '../../metadata_img.png', width: 1200, height: 630 },
+      { url: 'https://bfe-website-next.vercel.app/metadata_img.png', width: 1200, height: 630 },
       {
-        url: '../../metadata_img.png',
+        url: 'https://bfe-website-next.vercel.app/metadata_img.png',
         width: 1200,
         height: 630,
         alt: 'Blockchain for Executives logo',
@@ -31,7 +32,7 @@ export const metadata = {
     creator: '@BlockForExec',
     creatorId: 'hBlockForExec',
     images: {
-      url: '../../metadata_img.png',
+      url: 'https://bfe-website-next.vercel.app/metadata_img.png',
       alt: 'Blockchain for Executives logo',
     },
   },
