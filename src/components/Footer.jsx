@@ -19,7 +19,7 @@ const Footer = ({ setViewPort }) => {
                                 src={"/Footer/Footer_Logo.png"} alt='logo' />
                         </div>
                         <div className='flex justify-center'>
-                            <p className='w-64 text-center text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p className='w-64 text-center text-sm'>Podcast on tech and business made for Entrepreneurs</p>
                         </div>
                         <div className='flex justify-center items-center flex-wrap gap-7'>
                             <SocialMediaIcons width={28} height={28} navigateTo={"https://www.facebook.com/BlockchainforExecutives"} srcImage={"/Footer/Facebook_logo.svg"} alt={"fb"} />
@@ -33,24 +33,24 @@ const Footer = ({ setViewPort }) => {
                     <div className='grid gap-3 justify-center mx-2'>
                         <p>Listen to episodes on your fav platform:</p>
                         <div className='flex gap-5'>
-                            <SocialMediaIcons navigateTo={"#"} width={150} height={22} srcImage={"/Footer/spotify.svg"} alt={"Spotify"} />
-                            <SocialMediaIcons navigateTo={"#"} width={150} height={22} srcImage={"/Footer/youtube.svg"} alt={"Youtube"} />
-                            <SocialMediaIcons navigateTo={"#"} width={150} height={22} srcImage={"/Footer/amazon_music.svg"} alt={"Amazon Music"} />
+                            <SocialMediaIcons width={150} height={22} srcImage={"/Footer/spotify.svg"} alt={"Spotify"} />
+                            <SocialMediaIcons width={150} height={22} srcImage={"/Footer/youtube.svg"} alt={"Youtube"} />
+                            <SocialMediaIcons width={150} height={22} srcImage={"/Footer/amazon_music.svg"} alt={"Amazon Music"} />
                         </div>
                         <div className='grid gap-3'>
                             <div className='flex gap-5'>
-                                <SocialMediaIcons navigateTo={"#"} width={150} height={22} srcImage={"/Footer/podchaser.svg"} alt={"Podchaser"} />
-                                <SocialMediaIcons navigateTo={"#"} width={150} height={22} srcImage={"/Footer/deezer.svg"} alt={"Deezer"} />
-                                <SocialMediaIcons navigateTo={"#"} width={150} height={22} srcImage={"/Footer/player_fm.svg"} alt={"Player FM"} />
+                                <SocialMediaIcons width={150} height={22} srcImage={"/Footer/podchaser.svg"} alt={"Podchaser"} />
+                                <SocialMediaIcons width={150} height={22} srcImage={"/Footer/deezer.svg"} alt={"Deezer"} />
+                                <SocialMediaIcons width={150} height={22} srcImage={"/Footer/player_fm.svg"} alt={"Player FM"} />
                             </div>
                             <div className='flex gap-5'>
-                                <SocialMediaIcons navigateTo={"#"} width={150} height={22} srcImage={"/Footer/podcast_index.svg"} alt={"Podcast Index"} />
-                                <SocialMediaIcons navigateTo={"#"} width={150} height={22} srcImage={"/Footer/podcast_addict.svg"} alt={"Podcast Addict"} />
-                                <SocialMediaIcons navigateTo={"#"} width={150} height={22} srcImage={"/Footer/pocket_casts.svg"} alt={"Pocket Casts"} />
+                                <SocialMediaIcons width={150} height={22} srcImage={"/Footer/podcast_index.svg"} alt={"Podcast Index"} />
+                                <SocialMediaIcons width={150} height={22} srcImage={"/Footer/podcast_addict.svg"} alt={"Podcast Addict"} />
+                                <SocialMediaIcons width={150} height={22} srcImage={"/Footer/pocket_casts.svg"} alt={"Pocket Casts"} />
                             </div>
                             <div className='flex gap-5'>
-                                <SocialMediaIcons navigateTo={"#"} width={150} height={22} srcImage={"/Footer/listen_notes.svg"} alt={"Listen Notes"} />
-                                <SocialMediaIcons navigateTo={"#"} width={150} height={22} srcImage={"/Footer/rss_feed.svg"} alt={"RSS Feed"} />
+                                <SocialMediaIcons width={150} height={22} srcImage={"/Footer/listen_notes.svg"} alt={"Listen Notes"} />
+                                {/* <SocialMediaIcons navigateTo={"#"} width={150} height={22} srcImage={"/Footer/rss_feed.svg"} alt={"RSS Feed"} /> */}
                             </div>
                         </div>
                     </div>

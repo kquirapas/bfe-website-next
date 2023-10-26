@@ -23,8 +23,8 @@ const Home = ({ }, ref) => {
                   <p className='text-[#2f36ab] text-shadow-blue'>Blockchain </p><p>Podcast</p>
                 </span>
                 IS Available Now</motion.h1>
-              <p className='my-10 text-sm lg:mx-0 lg:text-xl z-30 text-shadow-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
-              <a href={"#"}
+              <p className='my-10 text-sm lg:mx-0 lg:text-xl z-30 text-shadow-white'>Podcast on tech and business made for Entrepreneurs</p>
+              <a href={"https://www.buzzsprout.com/2252861"}
                 className='rounded-full absolute -bottom-16 w-max flex items-center text-xl px-8 py-4 bg-[#2e840d]'>
                 Listen Now
               </a>
@@ -40,7 +40,7 @@ const Home = ({ }, ref) => {
                 <Image className='z-20 w-56 lg:w-max rounded-full absolute' src={"/Home/alvin_hero_section.PNG"} layout='fill' objectFit='cover' alt='blog' />
               </div>
             </div>
-            <Image className='absolute lg:-left-14 left-6 z-30 bottom-14 lg:bottom-24 w-64 lg:w-max' src={"Home/Horizontal_Music_Home.svg"} width={323} height={85} alt='blog' />
+            {/* <Image className='absolute lg:-left-14 left-6 z-30 bottom-14 lg:bottom-24 w-64 lg:w-max' src={"Home/Horizontal_Music_Home.svg"} width={323} height={85} alt='blog' /> */}
           </div>
         </div>
         <div className='grid gap-6 relative justify-center'>
@@ -51,28 +51,28 @@ const Home = ({ }, ref) => {
             <p className='whitespace-nowrap'> grow your</p>
             <p className='text-[#2e840d]'>mind</p>
           </div>
-          <p className='text-center px-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+          <p className='text-center px-4'>Learn different use case of blockchain in different industry in every episode</p>
           <div className='grid justify-center z-10 lg:p-10 px-8 py-4 gap-2 lg:gap-8'>
             <div className='lg:flex grid gap-2 lg:gap-12'>
-              <StoriesCards navigateTo={"#"}
-                srcImage={"/Home/music.png"}
+              <StoriesCards navigateTo={"https://www.buzzsprout.com/2252861/13698379"}
+                srcImage={"/Home/Podcast/episode_1.svg"}
                 width={530}
                 height={140}
                 alt={"Stories cards"} />
-              <StoriesCards navigateTo={"#"}
-                srcImage={"/Home/music.png"}
+              <StoriesCards navigateTo={"https://www.buzzsprout.com/2252861/13797534"}
+                srcImage={"/Home/Podcast/episode_3.svg"}
                 width={530}
                 height={140}
                 alt={"Stories cards"} />
             </div>
             <div className='lg:flex grid gap-2 lg:gap-12'>
-              <StoriesCards navigateTo={"#"}
-                srcImage={"/Home/music.png"}
+              <StoriesCards navigateTo={"https://www.buzzsprout.com/2252861/13761818"}
+                srcImage={"/Home/Podcast/episode_2.svg"}
                 width={530}
                 height={140}
                 alt={"Stories cards"} />
-              <StoriesCards navigateTo={"#"}
-                srcImage={"/Home/music.png"}
+              <StoriesCards navigateTo={"https://www.buzzsprout.com/2252861/13843407"}
+                srcImage={"/Home/Podcast/episode_4.svg"}
                 width={530}
                 height={140}
                 alt={"Stories cards"} />

@@ -60,13 +60,14 @@ const Header = ({ setViewPort }) => {
                     <button className={`py-4 px-6 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full 
                     ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
                         onClick={() => handleScrollToSection("aboutRef")}>About Us</button>
-                    <Link href={'/#'}
+                    <Link href={'https://www.facebook.com/BlockchainforExecutives'}
                         className={`py-4 px-6 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full 
                     ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
-                        onClick={() => handleScrollToSection("homeRef")}>Be a Guest</Link>
-                    <button className={`py-4 px-8 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full bg-gray-500 
+                        onClick={() => handleScrollToSection("")}>Be a Guest</Link>
+                    <Link href={'https://www.buzzsprout.com/2252861'}
+                        className={`py-4 px-8 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full bg-gray-500 
                     ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
-                        onClick={() => handleScrollToSection("beAGuestRef")}>Listen Now</button>
+                        onClick={() => handleScrollToSection("")}>Listen Now</Link>
                 </div>
             </div>
         </div>

@@ -15,12 +15,12 @@ const About = ({ title }, ref) => {
             <Image className='mx-auto md:w-full w-64' src={"/About/Logo.png"} width={1000} height={1000} alt='about' />
             <div className='grid justify-start lg:mx-14 mx-0 gap-10'>
               <p className='uppercase lg:text-start text-center text-2xl lg:text-4xl font-bold'>About the BFE</p>
-              <p>Instead of storing data with a single cloud company, decentralized file storage protocols cut up your data into tiny pieces, then store packets on pseudonymous computers &#40;nodes&#41; linked up to a decentralized network</p>
+              <p>Blockchain for Executives is a podcast on tech and business made for entrepreneurs. This podcast tackles the possible usecase and how business-minded people can leverage blockchain to their business.</p>
             </div>
           </div>
           <div className='grid justify-center lg:px-0 px-32 gap-8'>
             <p className='uppercase text-center text-shadow-white text-2xl lg:text-5xl font-bold'>MEET THE TEAM</p>
-            <p className='text-center lg:mb-2 mb-8 mx-12 lg:mx-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum.</p>
+            <p className='text-center lg:mb-2 mb-8 mx-12 lg:mx-6'>This team consist of people who love to talk and share about the amazing usecase of blockchain technology</p>
             <div className='flex flex-wrap text-lg lg:xl 2xl:text-2xl w-full justify-center gap-12 px-4 2xl:px-16 lg:gap-4'>
               <div placeholder="blur" className='relative xl:h-[250px] h-52 w-80 xl:w-[370px] flex items-center justify-end'>
                 <Image className='absolute bottom-0 left-0 z-10' src={"/About/Kristian_profile.png"} width={250} height={250} alt='about' />
