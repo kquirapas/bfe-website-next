@@ -55,7 +55,7 @@ export default function App() {
           <Image height={65} width={65} className='rounded-full' src={"Arrow_up.svg"} alt='logo' />
         </div>
         <Image height={1000} width={1000} className='absolute top-0 -left-4' src={"Home/Ellipse_green.svg"} alt='bg' />
-        <Image height={780} width={980} className='absolute lg:w-max w-60 top-20 lg:top-0 opacity-90 left-0' src={"Home/Polygon_bg_left.svg"} alt='bg left design' />
+        <Image height={780} width={980} className='absolute lg:w-max w-60 top-16 lg:top-0 opacity-90 left-0' src={"Home/Polygon_bg_left.svg"} alt='bg left design' />
         <Image height={500} width={400} className='absolute lg:w-max w-52 top-80 lg:top-0 right-0 ' src={"Home/Polygon_bg_right.svg"} alt='bg right design' />
         <Home ref={refs.homeRef} setViewPort={setViewPort} title="Home" />
         <About ref={refs.aboutRef} title="About" />

@@ -31,7 +31,7 @@ const Header = ({ setViewPort }) => {
     };
 
     return (
-        <div className={`w-full flex justify-center mx-auto px-10 py-4 z-40
+        <div className={`w-full flex justify-center mx-auto px-10 py-3 z-40
                lg:h-max top-0 fixed
                 ${prevScrollPos > 300 ?
                 (isMobileMenuOpen ? 'h-screen bg-gray-700 z-50 fixed' : 'bg-gray-700 opacity-80 ')
@@ -42,11 +42,11 @@ const Header = ({ setViewPort }) => {
             <div className='max-w-screen-2xl w-full flex items-center relative justify-between'>
                 <div className={`
                     ${isMobileMenuOpen && 'hidden'}`}>
-                    <Image height={50} width={50}
+                    <Image height={40} width={40}
                         onClick={() => handleScrollToSection("homeRef")}
                         className='lg:ml-16' src={"/Logo.png"} alt='logo' />
                 </div>
-                <div className={`text-gray-100 text-xl items-center 
+                <div className={`text-gray-100 text-lg items-center 
                 ${isMobileMenuOpen ? 'grid w-full justify-center' : 'flex justify-end space-x-4 md:space-x-8 '}`}>
                     <div className="md:hidden block cursor-pointer" onClick={toggleMobileMenu}>
                         {isMobileMenuOpen ?
@@ -54,18 +54,18 @@ const Header = ({ setViewPort }) => {
                             <Image src={"burger.svg"} width={50} height={50} className='absolute top-0 right-0' alt='Menu' />
                         }
                     </div>
-                    <button className={`py-4 px-6 cursor-pointer hover:bg-gray-500 rounded-full 
+                    <button className={`py-2 px-6 cursor-pointer hover:bg-gray-500 rounded-full 
                     ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
                         onClick={() => handleScrollToSection("homeRef")}>Home</button>
-                    <button className={`py-4 px-6 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full 
+                    <button className={`py-2 px-6 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full 
                     ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
                         onClick={() => handleScrollToSection("aboutRef")}>About Us</button>
                     <Link href={'https://www.facebook.com/BlockchainforExecutives'}
-                        className={`py-4 px-6 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full 
+                        className={`py-2 px-2 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full 
                     ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
                         onClick={() => handleScrollToSection("")}>Be a Guest</Link>
                     <Link href={'https://www.buzzsprout.com/2252861'}
-                        className={`py-4 px-8 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full bg-gray-500 
+                        className={`py-2 px-8 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full bg-gray-500 
                     ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
                         onClick={() => handleScrollToSection("")}>Listen Now</Link>
                 </div>
