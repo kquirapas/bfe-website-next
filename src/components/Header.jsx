@@ -61,7 +61,7 @@ const Header = ({ setViewPort }) => {
                     ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
                         onClick={() => handleScrollToSection("aboutRef")}>About Us</button>
                     <Link href={'https://www.facebook.com/BlockchainforExecutives'}
-                        className={`py-2 px-2 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full 
+                        className={`py-2 px-8 cursor-pointer whitespace-nowrap hover:bg-gray-500 rounded-full 
                     ${isMobileMenuOpen ? 'visible' : 'hidden md:block'}`}
                         onClick={() => handleScrollToSection("")}>Be a Guest</Link>
                     <Link href={'https://www.buzzsprout.com/2252861'}
