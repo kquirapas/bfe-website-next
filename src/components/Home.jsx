@@ -77,6 +77,18 @@ const Home = ({ }, ref) => {
                 height={140}
                 alt={"Stories cards"} />
             </div>
+            <div className='lg:flex grid gap-5 lg:gap-12'>
+              <StoriesCards navigateTo={"https://www.buzzsprout.com/2252861/13893940"}
+                srcImage={"/Home/Podcast/episode_5.svg"}
+                width={530}
+                height={140}
+                alt={"Stories cards"} />
+              <StoriesCards navigateTo={"https://www.buzzsprout.com/2252861/13983534"}
+                srcImage={"/Home/Podcast/episode_6.svg"}
+                width={530}
+                height={140}
+                alt={"Stories cards"} />
+            </div>
           </div>
           <Image className='absolute left-0 lg:-left-20 lg:w-max w-44 -bottom-20 lg:-bottom-60' src={"Home/Sound_Waves.svg"} width={300} height={300} alt='blog' />
         </div>
